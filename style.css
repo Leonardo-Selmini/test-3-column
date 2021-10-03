@@ -9,3 +9,50 @@
 body {
   width: 1440px;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+/* main */
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* debug section */
+.debug #sedans {
+  height: 800px;
+}
+
+.debug #suvs {
+  height: 800px;
+}
+
+.debug #luxury {
+  height: 800px;
+}
+
+/* main - sedands section */
+#sedans {
+  width: 33.333%;
+  background-color: hsl(31, 77%, 52%);
+}
+
+/* main - suvs section */
+#suvs {
+  width: 33.333%;
+  background-color: hsl(184, 100%, 22%);
+}
+
+/* main - luxury section */
+#luxury {
+  width: 33.333%;
+  background-color: hsl(179, 100%, 13%);
+}
