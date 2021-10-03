@@ -47,11 +47,11 @@ main button {
 /* debug section
 .debug #sedans {
   height: 800px;
-} */
+} 
 
 .debug #suvs {
   height: 800px;
-}
+} */
 
 .debug #luxury {
   height: 800px;
@@ -81,6 +81,12 @@ main {
 #suvs {
   width: 33.333%;
   background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+}
+
+#suvs button:hover {
+  background-color: white;
+  color: hsl(184, 100%, 22%);  
 }
 
 /* main - luxury section */
