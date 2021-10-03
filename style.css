@@ -23,6 +23,25 @@ body {
   float: left;
 }
 
+/* debug section
+.debug #sedans {
+  height: 800px;
+} 
+
+.debug #suvs {
+  height: 800px;
+} 
+
+.debug #luxury {
+  height: 800px;
+} */
+
+/* main */
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
 main h2 {
   font-family: 'Big Shoulders Display', cursive;
   font-size: 40px;
@@ -45,23 +64,12 @@ main button {
   background-color: rgba(255, 255, 255, 0);
 }
 
-/* debug section
-.debug #sedans {
-  height: 800px;
-} 
+main section {
+  opacity: 0.9;
+}
 
-.debug #suvs {
-  height: 800px;
-} 
-
-.debug #luxury {
-  height: 800px;
-} */
-
-/* main */
-main {
-  width: 70%;
-  margin: 0 auto;
+main section:hover {
+  opacity: 1;
 }
 
 /* main - sedans section */
@@ -69,14 +77,14 @@ main {
   width: 33.333%;
   background-color: hsl(31, 98%, 58%);
   padding: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 #sedans button:hover {
   background-color: white;
   color: hsl(31, 98%, 58%);  
 }
-
-
 
 /* main - suvs section */
 #suvs {
@@ -95,6 +103,8 @@ main {
   width: 33.333%;
   background-color: hsl(179, 100%, 13%);
   padding: 50px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 #luxury button:hover {
